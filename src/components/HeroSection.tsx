@@ -22,7 +22,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-muted-foreground tracking-[0.4em] uppercase text-sm font-body mb-6">
-          PIANIST
+
 
         </motion.p>
 
@@ -48,8 +48,8 @@ const HeroSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 1.2 }}
-          className="text-muted-foreground font-body text-lg max-w-md mx-auto">
-          Salzburg
+          className="text-muted-foreground font-body text-lg max-w-md mx-auto">Pianist from Salzburg, Austria
+
 
         </motion.p>
       </div>
