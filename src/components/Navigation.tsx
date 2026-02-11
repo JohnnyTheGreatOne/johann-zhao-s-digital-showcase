@@ -4,9 +4,10 @@ import { motion, AnimatePresence } from "framer-motion";
 const navLinks = [
   { label: "About", href: "#about" },
   { label: "Achievements", href: "#achievements" },
-  { label: "Repertoire", href: "#repertoire" },
+  { label: "Gallery", href: "#gallery" },
   { label: "Media", href: "#media" },
   { label: "Contact", href: "#contact" },
+  { label: "Zhao & Zech", href: "https://www.zhao-zech.com/", external: true },
 ];
 
 const Navigation = () => {
@@ -40,6 +41,7 @@ const Navigation = () => {
               <a
                 key={link.href}
                 href={link.href}
+                {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 className="text-muted-foreground font-body text-xs tracking-[0.2em] uppercase hover:text-gold transition-colors"
               >
                 {link.label}
@@ -76,7 +78,8 @@ const Navigation = () => {
                 <a
                   key={link.href}
                   href={link.href}
-                  onClick={() => setMenuOpen(false)}
+                  onClick={() => !link.external && setMenuOpen(false)}
+                  {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                   className="font-display text-2xl text-foreground hover:text-gold transition-colors"
                 >
                   {link.label}

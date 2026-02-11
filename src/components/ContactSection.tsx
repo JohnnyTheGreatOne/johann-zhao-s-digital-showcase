@@ -19,7 +19,7 @@ const ContactSection = () => {
           </p>
 
           <a
-            href="mailto:contact@johannzhao.com"
+            href="mailto:johannzhaopiano@gmail.com"
             className="inline-block px-10 py-4 border border-gold text-gold font-body text-sm tracking-[0.2em] uppercase hover:bg-gold hover:text-primary-foreground transition-all duration-300"
           >
             Contact Johann
