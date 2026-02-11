@@ -2,7 +2,7 @@ import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import AchievementsSection from "@/components/AchievementsSection";
-import RepertoireSection from "@/components/RepertoireSection";
+import GallerySection from "@/components/RepertoireSection";
 import MediaSection from "@/components/MediaSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -14,7 +14,7 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <AchievementsSection />
-      <RepertoireSection />
+      <GallerySection />
       <MediaSection />
       <ContactSection />
       <Footer />

@@ -2,29 +2,69 @@ import { motion } from "framer-motion";
 
 const achievements = [
   {
+    year: "2026",
+    title: "Mozartwoche Debut",
+    detail: "Performed with Orquesta Iberacademy Medellín & Karim Zech at the Mozartwoche, Salzburg",
+  },
+  {
+    year: "2023",
+    title: "Tyrolean Classical Instrumentalist Prize",
+    detail: "Awarded sponsorship prize",
+  },
+  {
+    year: "2023",
+    title: "Amazing Haydn Festival",
+    detail: "Recital concert with Lupus Trio in Mechelen, Belgium",
+  },
+  {
+    year: "2022",
+    title: "Jugend Musiziert — Federal State Competition",
+    detail: "Sparkasse Special Prize (duo with Fabian Egger)",
+  },
+  {
+    year: "2020",
+    title: "Prima La Musica — Federal State Winner",
+    detail: "Austrian national competition",
+  },
+  {
     year: "2019",
-    title: "Cliburn International Junior Piano Competition",
-    detail: "Selected competitor, Dallas, Texas",
+    title: "Liszt Piano Concerto No. 1 at Berlin Philharmonic",
+    detail: "With Berlin Symphony Orchestra, conducted by Christoph Koncz",
+  },
+  {
+    year: "2019",
+    title: "Schleswig-Holstein Music Festival",
+    detail: "Festival Prize & Audience Award (duo with Fabian Egger)",
   },
   {
     year: "2016",
-    title: "Austrian National Competition Prima La Musica",
-    detail: "Two First Prizes",
+    title: "32nd Smetana International Piano Competition",
+    detail: "First Prize — Pilsen, Czech Republic",
   },
   {
     year: "2016",
-    title: "XXXII Smetana International Piano Competition",
-    detail: "First Prize — Plzeň, Czech Republic",
+    title: "Rising Stars Competition, Berlin",
+    detail: "Grand Prix",
+  },
+  {
+    year: "2016",
+    title: "Golden Classical Music Award, New York",
+    detail: "First Prize",
+  },
+  {
+    year: "2015",
+    title: "AADGT Piano Competition, New York",
+    detail: "Winner — Final concert at Carnegie Weill Recital Hall",
+  },
+  {
+    year: "2014",
+    title: "Salzburg Palace Concerts",
+    detail: "First piano concerto performances (Mozart) with the Salzburger Solisten, age 11",
   },
   {
     year: "2013",
-    title: "University Mozarteum Salzburg",
-    detail: "Admitted to Pre-College Program, age 9",
-  },
-  {
-    year: "2013",
-    title: "Prima La Musica Salzburg",
-    detail: "First Prize with Excellence",
+    title: "Mozarteum University Pre-College",
+    detail: "Admitted at age 9",
   },
 ];
 

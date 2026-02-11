@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImage from "@/assets/hero-piano.jpg";
+import heroImage from "@/assets/hero-johann.jpeg";
 
 const HeroSection = () => {
   return (
@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Grand piano in concert hall"
+          alt="Johann Zhao at the piano"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-background/70" />
