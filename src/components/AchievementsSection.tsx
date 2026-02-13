@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useLanguage } from "@/context/LanguageContext";
 
 const achievements = [
   {
@@ -69,6 +70,7 @@ const achievements = [
 ];
 
 const AchievementsSection = () => {
+  const { t } = useLanguage();
   return (
     <section id="achievements" className="py-32 px-6 bg-card">
       <div className="max-w-4xl mx-auto">
@@ -79,9 +81,9 @@ const AchievementsSection = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
-          <p className="text-gold tracking-[0.3em] uppercase text-xs mb-4">Honors</p>
+          <p className="text-gold tracking-[0.3em] uppercase text-xs mb-4">{t("achievements.label")}</p>
           <h2 className="font-display text-4xl md:text-5xl font-medium text-foreground">
-            Achievements
+            {t("achievements.title")}
           </h2>
         </motion.div>
 

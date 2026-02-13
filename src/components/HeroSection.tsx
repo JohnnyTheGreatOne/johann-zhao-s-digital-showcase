@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-johann.jpeg";
+import { useLanguage } from "@/context/LanguageContext";
 
 const HeroSection = () => {
+  const { t } = useLanguage();
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
@@ -48,7 +50,7 @@ const HeroSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 1.2 }}
-          className="text-muted-foreground font-body text-lg max-w-md mx-auto">Pianist from Salzburg, Austria
+          className="text-muted-foreground font-body text-lg max-w-md mx-auto">{t("hero.description")}
 
 
         </motion.p>

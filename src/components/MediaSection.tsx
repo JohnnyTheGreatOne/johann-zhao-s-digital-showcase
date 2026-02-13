@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useLanguage } from "@/context/LanguageContext";
 
 const videos = [
   { src: "https://www.youtube.com/embed/6PsgyFTFKYY", title: "Johann Zhao – Performance 1" },
@@ -10,6 +11,7 @@ const videos = [
 ];
 
 const MediaSection = () => {
+  const { t } = useLanguage();
   return (
     <section id="media" className="py-32 px-6 bg-card">
       <div className="max-w-5xl mx-auto">
@@ -20,9 +22,9 @@ const MediaSection = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
-          <p className="text-gold tracking-[0.3em] uppercase text-xs mb-4">Watch</p>
+          <p className="text-gold tracking-[0.3em] uppercase text-xs mb-4">{t("media.label")}</p>
           <h2 className="font-display text-4xl md:text-5xl font-medium text-foreground">
-            Media
+            {t("media.title")}
           </h2>
         </motion.div>
 
