@@ -1,18 +1,20 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
-const navLinks = [
-  { label: "About", href: "#about" },
-  { label: "Achievements", href: "#achievements" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "Media", href: "#media" },
-  { label: "Contact", href: "#contact" },
-  { label: "Zhao & Zech", href: "https://www.zhao-zech.com/", external: true },
-];
+import { useLanguage } from "@/context/LanguageContext";
 
 const Navigation = () => {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const { language, setLanguage, t } = useLanguage();
+
+  const navLinks = [
+    { label: t("nav.about"), href: "#about" },
+    { label: t("nav.achievements"), href: "#achievements" },
+    { label: t("nav.gallery"), href: "#gallery" },
+    { label: t("nav.media"), href: "#media" },
+    { label: t("nav.contact"), href: "#contact" },
+    { label: t("nav.zaozech"), href: "https://www.zhao-zech.com/", external: true },
+  ];
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 60);
@@ -47,6 +49,26 @@ const Navigation = () => {
                 {link.label}
               </a>
             ))}
+            {/* Language toggle */}
+            <div className="flex items-center gap-2 ml-4 pl-4 border-l border-border">
+              <button
+                onClick={() => setLanguage("en")}
+                className={`font-body text-xs tracking-[0.2em] uppercase transition-colors ${
+                  language === "en" ? "text-gold" : "text-muted-foreground hover:text-gold"
+                }`}
+              >
+                EN
+              </button>
+              <span className="text-muted-foreground text-xs">/</span>
+              <button
+                onClick={() => setLanguage("de")}
+                className={`font-body text-xs tracking-[0.2em] uppercase transition-colors ${
+                  language === "de" ? "text-gold" : "text-muted-foreground hover:text-gold"
+                }`}
+              >
+                DE
+              </button>
+            </div>
           </div>
 
           {/* Mobile menu toggle */}
@@ -85,6 +107,26 @@ const Navigation = () => {
                   {link.label}
                 </a>
               ))}
+              {/* Mobile language toggle */}
+              <div className="flex items-center gap-3 mt-6 pt-6 border-t border-border">
+                <button
+                  onClick={() => setLanguage("en")}
+                  className={`font-body text-sm tracking-[0.2em] uppercase transition-colors ${
+                    language === "en" ? "text-gold" : "text-muted-foreground hover:text-gold"
+                  }`}
+                >
+                  EN
+                </button>
+                <span className="text-muted-foreground text-sm">/</span>
+                <button
+                  onClick={() => setLanguage("de")}
+                  className={`font-body text-sm tracking-[0.2em] uppercase transition-colors ${
+                    language === "de" ? "text-gold" : "text-muted-foreground hover:text-gold"
+                  }`}
+                >
+                  DE
+                </button>
+              </div>
             </div>
           </motion.div>
         )}

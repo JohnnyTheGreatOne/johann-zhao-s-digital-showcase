@@ -5,6 +5,8 @@ import gallery2 from "@/assets/gallery-2.jpeg";
 import gallery3 from "@/assets/gallery-3.jpeg";
 import gallery4 from "@/assets/gallery-4.jpeg";
 import gallery5 from "@/assets/gallery-5.jpeg";
+import gallery6 from "@/assets/gallery-6.jpeg";
+import { useLanguage } from "@/context/LanguageContext";
 
 const photos = [
   { src: gallery1, alt: "Johann Zhao – Portrait" },
@@ -12,10 +14,12 @@ const photos = [
   { src: gallery3, alt: "Johann Zhao – At the Piano" },
   { src: gallery4, alt: "Johann Zhao – Outdoors Portrait" },
   { src: gallery5, alt: "Johann Zhao – Piano Reflection" },
+  { src: gallery6, alt: "Johann Zhao – At the Piano" },
 ];
 
 const GallerySection = () => {
   const [selected, setSelected] = useState<number | null>(null);
+  const { t } = useLanguage();
 
   return (
     <section id="gallery" className="py-32 px-6">
@@ -27,9 +31,9 @@ const GallerySection = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
-          <p className="text-gold tracking-[0.3em] uppercase text-xs mb-4">Moments</p>
+          <p className="text-gold tracking-[0.3em] uppercase text-xs mb-4">{t("gallery.label")}</p>
           <h2 className="font-display text-4xl md:text-5xl font-medium text-foreground">
-            Gallery
+            {t("gallery.title")}
           </h2>
         </motion.div>
 

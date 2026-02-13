@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
+import { useLanguage } from "@/context/LanguageContext";
 
 const AboutSection = () => {
+  const { t } = useLanguage();
   return (
     <section id="about" className="py-32 px-6">
       <div className="max-w-4xl mx-auto">
@@ -11,9 +13,9 @@ const AboutSection = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <p className="text-gold tracking-[0.3em] uppercase text-xs mb-4">Biography</p>
+          <p className="text-gold tracking-[0.3em] uppercase text-xs mb-4">{t("about.label")}</p>
           <h2 className="font-display text-4xl md:text-5xl font-medium text-foreground">
-            About Johann
+            {t("about.title")}
           </h2>
         </motion.div>
 
