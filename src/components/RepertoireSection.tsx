@@ -45,7 +45,7 @@ const GallerySection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="break-inside-avoid cursor-pointer overflow-hidden rounded-sm border border-border"
+              className="break-inside-avoid cursor-pointer overflow-hidden rounded-sm border border-border relative group"
               onClick={() => setSelected(index)}
             >
               <img
@@ -54,6 +54,9 @@ const GallerySection = () => {
                 className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
                 loading="lazy"
               />
+              <span className="absolute bottom-2 right-2 text-[10px] text-white/60 font-body tracking-wide opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                © Joanna Bergin
+              </span>
             </motion.div>
           ))}
         </div>
@@ -73,11 +76,16 @@ const GallerySection = () => {
           >
             ✕
           </button>
-          <img
-            src={photos[selected].src}
-            alt={photos[selected].alt}
-            className="max-w-full max-h-[85vh] object-contain rounded-sm"
-          />
+          <div className="relative">
+            <img
+              src={photos[selected].src}
+              alt={photos[selected].alt}
+              className="max-w-full max-h-[85vh] object-contain rounded-sm"
+            />
+            <span className="absolute bottom-3 right-3 text-xs text-white/70 font-body tracking-wide">
+              © Joanna Bergin
+            </span>
+          </div>
         </motion.div>
       )}
     </section>
