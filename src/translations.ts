@@ -37,6 +37,7 @@ export const translations = {
       message: "Message",
       send: "Send Message",
       button: "Contact Johann",
+      description: "For concert bookings, collaborations, and press inquiries, please reach out.",
     },
     footer: {
       rights: "© 2025 Johann Zhao. All rights reserved.",
@@ -47,7 +48,7 @@ export const translations = {
       about: "Über",
       gallery: "Galerie",
       achievements: "Erfolge",
-      media: "Media",
+      media: "Medien",
       contact: "Kontakt",
       zaozech: "Zhao & Zech",
     },
@@ -70,7 +71,7 @@ export const translations = {
     },
     media: {
       label: "Ansehen",
-      title: "Media",
+      title: "Medien",
     },
     contact: {
       label: "Kontakt aufnehmen",
@@ -80,6 +81,7 @@ export const translations = {
       message: "Nachricht",
       send: "Nachricht senden",
       button: "Johann kontaktieren",
+      description: "Für Konzertbuchungen, Kooperationen und Presseanfragen kontaktieren Sie uns gerne.",
     },
     footer: {
       rights: "© 2025 Johann Zhao. Alle Rechte vorbehalten.",

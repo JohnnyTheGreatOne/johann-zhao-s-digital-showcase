@@ -17,7 +17,7 @@ const ContactSection = () => {
             {t("contact.title")}
           </h2>
           <p className="text-muted-foreground font-body text-lg mb-12 leading-relaxed">
-            For concert bookings, collaborations, and press inquiries, please reach out.
+            {t("contact.description")}
           </p>
 
           <a

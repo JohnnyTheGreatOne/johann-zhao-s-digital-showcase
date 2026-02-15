@@ -11,7 +11,7 @@ const HeroSection = () => {
         <img
           src={heroImage}
           alt="Johann Zhao at the piano"
-          className="w-full h-full object-cover object-[center_30%]" />
+          className="w-full h-full object-cover object-[center_40%]" />
 
         <div className="absolute inset-0 bg-background/70" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
