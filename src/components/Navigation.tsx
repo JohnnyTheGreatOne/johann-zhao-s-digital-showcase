@@ -9,7 +9,7 @@ const Navigation = () => {
 
   const navLinks = [
     { label: t("nav.about"), href: "#about" },
-    { label: t("nav.achievements"), href: "#achievements" },
+    { label: t("nav.calendar"), href: "#calendar" },
     { label: t("nav.gallery"), href: "#gallery" },
     { label: t("nav.media"), href: "#media" },
     { label: t("nav.contact"), href: "#contact" },
