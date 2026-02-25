@@ -3,8 +3,8 @@ import { useLanguage } from "@/context/LanguageContext";
 import { CalendarDays, MapPin, ExternalLink } from "lucide-react";
 
 interface Concert {
-  title: string;
-  date: string;
+  title: { en: string; de: string };
+  date: { en: string; de: string };
   dateObj: Date;
   time?: string;
   venue: string;
@@ -13,49 +13,49 @@ interface Concert {
 
 const concerts: Concert[] = [
   {
-    title: "Benefizkonzert COPE",
-    date: "7. März 2026",
-    dateObj: new Date(2026, 2, 8), // day after to keep it visible on concert day
+    title: { en: "Benefit Concert COPE", de: "Benefizkonzert COPE" },
+    date: { en: "March 7, 2026", de: "7. März 2026" },
+    dateObj: new Date(2026, 2, 8),
     time: "19:00",
-    venue: "Solitär, Uni Mozarteum",
+    venue: "Solitär, Universität Mozarteum",
     ticketUrl: "https://kupfticket.com/en/events/cope",
   },
   {
-    title: "Rezital in Inzell",
-    date: "14. März 2026",
+    title: { en: "Recital in Inzell", de: "Rezital in Inzell" },
+    date: { en: "March 14, 2026", de: "14. März 2026" },
     dateObj: new Date(2026, 2, 15),
     time: "18:00",
     venue: "Musikschule Inzell",
   },
   {
-    title: "Live Music Now Benefizkonzert",
-    date: "12. April 2026",
+    title: { en: "Live Music Now Benefit Concert", de: "Live Music Now Benefizkonzert" },
+    date: { en: "April 12, 2026", de: "12. April 2026" },
     dateObj: new Date(2026, 3, 13),
     time: "18:00",
-    venue: "Universität Mozarteum, Solitär",
+    venue: "Solitär, Universität Mozarteum",
   },
   {
-    title: "Erika Frieser Kammermusiktage",
-    date: "9. Mai 2026",
+    title: { en: "Erika Frieser Chamber Music Days", de: "Erika Frieser Kammermusiktage" },
+    date: { en: "May 9, 2026", de: "9. Mai 2026" },
     dateObj: new Date(2026, 4, 10),
-    venue: "Solitär, Uni Mozarteum",
+    venue: "Solitär, Universität Mozarteum",
   },
   {
-    title: "Straußiade Altenmarkt im Pongau",
-    date: "20. Juni 2026",
+    title: { en: "Straußiade Altenmarkt im Pongau", de: "Straußiade Altenmarkt im Pongau" },
+    date: { en: "June 20, 2026", de: "20. Juni 2026" },
     dateObj: new Date(2026, 5, 21),
     venue: "Kulturraum Pötzelberg",
   },
   {
-    title: "Salzburger Hochschulwochen",
-    date: "9. August 2026",
+    title: { en: "Salzburg University Weeks", de: "Salzburger Hochschulwochen" },
+    date: { en: "August 9, 2026", de: "9. August 2026" },
     dateObj: new Date(2026, 7, 10),
     venue: "Universitätsaula Salzburg",
   },
 ];
 
 const CalendarSection = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const now = new Date();
   const upcomingConcerts = concerts.filter((c) => c.dateObj > now);
 
@@ -90,15 +90,17 @@ const CalendarSection = () => {
               <div className="min-w-[160px]">
                 <div className="flex items-center gap-2 text-gold font-display text-lg md:text-xl font-medium">
                   <CalendarDays className="w-4 h-4" />
-                  {concert.date}
+                  {concert.date[language]}
                 </div>
                 {concert.time && (
-                  <p className="text-muted-foreground font-body text-sm mt-1 ml-6">{concert.time} Uhr</p>
+                  <p className="text-muted-foreground font-body text-sm mt-1 ml-6">
+                    {concert.time} {language === "de" ? "Uhr" : ""}
+                  </p>
                 )}
               </div>
               <div className="flex-1">
                 <h3 className="font-display text-xl md:text-2xl text-foreground group-hover:text-gold-light transition-colors">
-                  {concert.title}
+                  {concert.title[language]}
                 </h3>
                 <div className="flex items-center gap-1.5 text-muted-foreground font-body mt-1">
                   <MapPin className="w-3.5 h-3.5" />
