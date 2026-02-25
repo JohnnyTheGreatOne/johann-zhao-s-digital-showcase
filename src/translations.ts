@@ -2,8 +2,8 @@ export const translations = {
   en: {
     nav: {
       about: "About",
+      calendar: "Calendar",
       gallery: "Gallery",
-      achievements: "Achievements",
       media: "Media",
       contact: "Contact",
       zaozech: "Zhao & Zech",
@@ -20,6 +20,10 @@ export const translations = {
     achievements: {
       label: "Milestones",
       title: "Achievements",
+    },
+    calendar: {
+      label: "Upcoming",
+      title: "Concerts",
     },
     gallery: {
       label: "Moments",
@@ -46,8 +50,8 @@ export const translations = {
   de: {
     nav: {
       about: "Über",
+      calendar: "Kalender",
       gallery: "Galerie",
-      achievements: "Erfolge",
       media: "Medien",
       contact: "Kontakt",
       zaozech: "Zhao & Zech",
@@ -64,6 +68,10 @@ export const translations = {
     achievements: {
       label: "Meilensteine",
       title: "Erfolge",
+    },
+    calendar: {
+      label: "Kommende",
+      title: "Konzerte",
     },
     gallery: {
       label: "Momente",
