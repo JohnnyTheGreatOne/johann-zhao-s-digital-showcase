@@ -7,7 +7,7 @@ interface Concert {
   date: { en: string; de: string };
   dateObj: Date;
   time?: string;
-  venue: string;
+  venue: { en: string; de: string };
   ticketUrl?: string;
 }
 
@@ -17,7 +17,7 @@ const concerts: Concert[] = [
     date: { en: "March 7, 2026", de: "7. März 2026" },
     dateObj: new Date(2026, 2, 8),
     time: "19:00",
-    venue: "Solitär, Universität Mozarteum",
+    venue: { en: "Solitär, Mozarteum University", de: "Solitär, Universität Mozarteum" },
     ticketUrl: "https://kupfticket.com/en/events/cope",
   },
   {
@@ -25,32 +25,32 @@ const concerts: Concert[] = [
     date: { en: "March 14, 2026", de: "14. März 2026" },
     dateObj: new Date(2026, 2, 15),
     time: "18:00",
-    venue: "Musikschule Inzell",
+    venue: { en: "Music School Inzell", de: "Musikschule Inzell" },
   },
   {
     title: { en: "Live Music Now Benefit Concert", de: "Live Music Now Benefizkonzert" },
     date: { en: "April 12, 2026", de: "12. April 2026" },
     dateObj: new Date(2026, 3, 13),
     time: "18:00",
-    venue: "Solitär, Universität Mozarteum",
+    venue: { en: "Solitär, Mozarteum University", de: "Solitär, Universität Mozarteum" },
   },
   {
     title: { en: "Erika Frieser Chamber Music Days", de: "Erika Frieser Kammermusiktage" },
     date: { en: "May 9, 2026", de: "9. Mai 2026" },
     dateObj: new Date(2026, 4, 10),
-    venue: "Solitär, Universität Mozarteum",
+    venue: { en: "Solitär, Mozarteum University", de: "Solitär, Universität Mozarteum" },
   },
   {
     title: { en: "Straußiade Altenmarkt im Pongau", de: "Straußiade Altenmarkt im Pongau" },
     date: { en: "June 20, 2026", de: "20. Juni 2026" },
     dateObj: new Date(2026, 5, 21),
-    venue: "Kulturraum Pötzelberg",
+    venue: { en: "Kulturraum Pötzelberg", de: "Kulturraum Pötzelberg" },
   },
   {
     title: { en: "Salzburg University Weeks", de: "Salzburger Hochschulwochen" },
     date: { en: "August 9, 2026", de: "9. August 2026" },
     dateObj: new Date(2026, 7, 10),
-    venue: "Universitätsaula Salzburg",
+    venue: { en: "University Hall Salzburg", de: "Universitätsaula Salzburg" },
   },
 ];
 
@@ -104,7 +104,7 @@ const CalendarSection = () => {
                 </h3>
                 <div className="flex items-center gap-1.5 text-muted-foreground font-body mt-1">
                   <MapPin className="w-3.5 h-3.5" />
-                  {concert.venue}
+                  {concert.venue[language]}
                 </div>
               </div>
               {concert.ticketUrl && (
