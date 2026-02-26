@@ -35,7 +35,7 @@ const concerts: Concert[] = [
     venue: { en: "Solitär, Mozarteum University", de: "Solitär, Universität Mozarteum" },
   },
   {
-    title: { en: "Erika Frieser Chamber Music Days", de: "Erika Frieser Kammermusiktage" },
+    title: { en: "Erika-Frieser-Chamber Music Days", de: "Erika-Frieser-Kammermusiktage" },
     date: { en: "May 9, 2026", de: "9. Mai 2026" },
     dateObj: new Date(2026, 4, 10),
     time: "19:00",
