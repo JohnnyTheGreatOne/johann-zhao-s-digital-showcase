@@ -21,7 +21,7 @@ const concerts: Concert[] = [
     ticketUrl: "https://kupfticket.com/en/events/cope",
   },
   {
-    title: { en: "Recital in Inzell", de: "Rezital in Inzell" },
+    title: { en: "Duo Recital in Inzell", de: "Duo-Rezital in Inzell" },
     date: { en: "March 14, 2026", de: "14. März 2026" },
     dateObj: new Date(2026, 2, 15),
     time: "18:00",
@@ -38,6 +38,7 @@ const concerts: Concert[] = [
     title: { en: "Erika Frieser Chamber Music Days", de: "Erika Frieser Kammermusiktage" },
     date: { en: "May 9, 2026", de: "9. Mai 2026" },
     dateObj: new Date(2026, 4, 10),
+    time: "19:00",
     venue: { en: "Solitär, Mozarteum University", de: "Solitär, Universität Mozarteum" },
   },
   {

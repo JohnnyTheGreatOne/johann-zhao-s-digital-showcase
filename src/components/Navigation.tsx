@@ -45,6 +45,12 @@ const Navigation = () => {
                 href={link.href}
                 {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 className="text-muted-foreground font-body text-xs tracking-[0.2em] uppercase hover:text-gold transition-colors"
+                onClick={(e) => {
+                  if (!link.external) {
+                    e.preventDefault();
+                    document.querySelector(link.href)?.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
               >
                 {link.label}
               </a>
@@ -100,7 +106,13 @@ const Navigation = () => {
                 <a
                   key={link.href}
                   href={link.href}
-                  onClick={() => !link.external && setMenuOpen(false)}
+                  onClick={(e) => {
+                    if (!link.external) {
+                      e.preventDefault();
+                      setMenuOpen(false);
+                      document.querySelector(link.href)?.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
                   {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                   className="font-display text-2xl text-foreground hover:text-gold transition-colors"
                 >
