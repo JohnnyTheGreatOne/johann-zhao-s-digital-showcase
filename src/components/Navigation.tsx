@@ -80,7 +80,7 @@ const Navigation = () => {
           {/* Mobile menu toggle */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden text-foreground p-2"
+            className="md:hidden text-foreground p-2 relative z-50 mr-0"
             aria-label="Toggle menu"
           >
             <div className="space-y-1.5">
