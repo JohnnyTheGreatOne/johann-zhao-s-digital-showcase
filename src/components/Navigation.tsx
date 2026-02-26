@@ -32,7 +32,7 @@ const Navigation = () => {
           scrolled ? "bg-background/90 backdrop-blur-md border-b border-border" : ""
         }`}
       >
-        <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
+        <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16 relative z-50">
           <a href="#" className="font-display text-lg text-foreground tracking-wide">
             J<span className="text-gold">Z</span>
           </a>
@@ -101,7 +101,7 @@ const Navigation = () => {
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-40 bg-background/95 backdrop-blur-lg flex items-center justify-center md:hidden"
           >
-            <div className="flex flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-8 mt-16">
               {navLinks.map((link) => (
                 <a
                   key={link.href}
