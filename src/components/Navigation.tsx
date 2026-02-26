@@ -101,11 +101,11 @@ const Navigation = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-40 bg-background/95 backdrop-blur-lg flex items-center justify-center md:hidden"
+            className="fixed inset-0 z-[70] bg-background/95 backdrop-blur-lg flex items-center justify-center md:hidden"
           >
             <button
               onClick={() => setMenuOpen(false)}
-              className="absolute top-5 right-8 h-10 w-10 flex items-center justify-center text-foreground z-50"
+              className="absolute top-5 right-8 h-10 w-10 flex items-center justify-center text-foreground z-[80]"
               aria-label="Close menu"
             >
               <span className="absolute block w-5 h-px bg-foreground rotate-45" />
