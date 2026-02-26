@@ -40,7 +40,7 @@ export const translations = {
       email: "Email Address",
       message: "Message",
       send: "Send Message",
-      button: "Contact Johann",
+      button: "Contact",
       description: "For concert bookings, collaborations, and press inquiries, please reach out.",
     },
     footer: {
@@ -88,7 +88,7 @@ export const translations = {
       email: "E-Mail-Adresse",
       message: "Nachricht",
       send: "Nachricht senden",
-      button: "Johann kontaktieren",
+      button: "Kontaktieren",
       description: "Für Konzertbuchungen, Kooperationen und Presseanfragen kontaktieren Sie uns gerne.",
     },
     footer: {
