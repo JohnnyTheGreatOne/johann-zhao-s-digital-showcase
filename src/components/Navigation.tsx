@@ -80,13 +80,15 @@ const Navigation = () => {
           {/* Mobile menu toggle */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden text-foreground p-2 relative z-50 mr-0"
+            className={`md:hidden text-foreground p-2 relative z-50 transition-opacity ${
+              menuOpen ? "opacity-0 pointer-events-none" : "opacity-100"
+            }`}
             aria-label="Toggle menu"
           >
             <div className="space-y-1.5">
-              <span className={`block w-5 h-px bg-foreground transition-transform ${menuOpen ? "rotate-45 translate-y-[3.5px]" : ""}`} />
-              <span className={`block w-5 h-px bg-foreground transition-opacity ${menuOpen ? "opacity-0" : ""}`} />
-              <span className={`block w-5 h-px bg-foreground transition-transform ${menuOpen ? "-rotate-45 -translate-y-[3.5px]" : ""}`} />
+              <span className="block w-5 h-px bg-foreground" />
+              <span className="block w-5 h-px bg-foreground" />
+              <span className="block w-5 h-px bg-foreground" />
             </div>
           </button>
         </div>
@@ -101,7 +103,15 @@ const Navigation = () => {
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-40 bg-background/95 backdrop-blur-lg flex items-center justify-center md:hidden"
           >
-            <div className="flex flex-col items-center gap-8 mt-16">
+            <button
+              onClick={() => setMenuOpen(false)}
+              className="absolute top-5 right-8 h-10 w-10 flex items-center justify-center text-foreground z-50"
+              aria-label="Close menu"
+            >
+              <span className="absolute block w-5 h-px bg-foreground rotate-45" />
+              <span className="absolute block w-5 h-px bg-foreground -rotate-45" />
+            </button>
+            <div className="flex flex-col items-center gap-8 mt-20">
               {navLinks.map((link) => (
                 <a
                   key={link.href}
