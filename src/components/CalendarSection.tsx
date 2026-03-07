@@ -21,9 +21,9 @@ const concerts: Concert[] = [
     ticketUrl: "https://kupfticket.com/en/events/cope",
   },
   {
-    title: { en: "Duo Recital in Inzell", de: "Duo-Rezital in Inzell" },
-    date: { en: "March 14, 2026", de: "14. März 2026" },
-    dateObj: new Date(2026, 2, 15),
+    title: { en: "Duo Recital and Masterclass in Inzell", de: "Duo-Rezital und Masterclass in Inzell" },
+    date: { en: "March 21, 2026", de: "21. März 2026" },
+    dateObj: new Date(2026, 2, 22),
     time: "18:00",
     venue: { en: "Music School Inzell", de: "Musikschule Inzell" },
   },
