@@ -89,7 +89,7 @@ export const translations = {
       message: "Nachricht",
       send: "Nachricht senden",
       button: "Kontaktieren",
-      description: "Für Konzertbuchungen, Kooperationen und Presseanfragen kontaktieren Sie uns gerne.",
+      description: "Für Konzertbuchungen, Kooperationen und Presseanfragen kontaktieren Sie mich gerne.",
     },
     footer: {
       rights: "© 2025 Johann Zhao. Alle Rechte vorbehalten.",
