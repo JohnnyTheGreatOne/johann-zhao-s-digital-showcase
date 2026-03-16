@@ -90,10 +90,21 @@ const AboutSection = () => {
                 <span className="text-gold-light">Mozartwoche</span> und führte mit dem Orquesta Iberacademy Medellín (Leitung: Álvaro Julca) und Karim Zech dessen Konzert für Klavier zu 4 Händen und Ensemble auf.
               </p>
               <p>
-                Er erhielt wichtige künstlerische Impulse u.a. von Elisabeth Leonskaja, Thomas Riebl, Kit Armstrong, Kristian Bezuidenhout, Arnulf von Arnim, Leonhard Roczek, Cibrán Sierra Vázquez und Gilbert Kalish. Johann ist Stipendiat der{" "}
+                Er erhielt wichtige künstlerische Impulse u.a. von{" "}
+                <span className="text-foreground">Elisabeth Leonskaja</span>,{" "}
+                <span className="text-foreground">Thomas Riebl</span>,{" "}
+                <span className="text-foreground">Kit Armstrong</span>,{" "}
+                <span className="text-foreground">Claudio Martinéz Mehner</span>,{" "}
+                <span className="text-foreground">Kristian Bezuidenhout</span>,{" "}
+                <span className="text-foreground">Arnulf von Arnim</span>,{" "}
+                <span className="text-foreground">Leonhard Roczek</span>,{" "}
+                <span className="text-foreground">Cibrán Sierra Vázquez</span>,{" "}
+                <span className="text-foreground">Gilbert Kalish</span>,{" "}
+                <span className="text-foreground">Réka Szilvay</span> und{" "}
+                <span className="text-foreground">Benedicte Palko</span>. Johann ist Stipendiat der{" "}
                 <span className="text-foreground">Deutschen Stiftung Musikleben</span>, des{" "}
-                <span className="text-foreground">Rotary Clubs St. Rupert</span> und der{" "}
-                <span className="text-foreground">Live Music Now Stiftung Salzburg</span>.
+                <span className="text-foreground">Rotary Clubs Salzburg-St. Rupert</span> und der{" "}
+                <span className="text-foreground">Yehudi Menuhin Stiftung Live Music Now Salzburg</span>.
               </p>
             </>
           ) : (
