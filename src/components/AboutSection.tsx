@@ -64,30 +64,58 @@ const AboutSection = () => {
           {language === "de" ? (
             <>
               <p>
-                Johann Zhao wurde am 25.11.2003 in Salzburg, Österreich geboren. Er erhielt seinen ersten Klavierunterricht mit 5 Jahren und wurde im Alter von 9 Jahren in das Pre-College der{" "}
+                Johann Zhao wurde am 25.11.2003 in <span className="text-foreground">Salzburg, Österreich</span> geboren. Er erhielt seinen ersten Klavierunterricht mit 5 Jahren und wurde im Alter von 9 Jahren in das Pre-College der{" "}
                 <span className="text-gold-light">Universität Mozarteum</span> aufgenommen. Dort studierte er zunächst langjährig bei{" "}
                 <span className="text-foreground">Prof. Cordelia Höfer-Teutsch</span> und schließt seit 2023 sein Bachelorstudium bei{" "}
                 <span className="text-foreground">Prof. Connie Shih</span> ab.
               </p>
               <p>
-                Seine ersten Klavierkonzerte von W. A. Mozart spielte er als 11-Jähriger bei den „Salzburger SchlossKonzerten" gemeinsam mit den Salzburger Solisten. Als 12-Jähriger gewann er einen New Yorker Klavierwettbewerb (AADGT) und spielte beim Schlusskonzert in der{" "}
+                Seine ersten Klavierkonzerte von <span className="text-foreground">W. A. Mozart</span> spielte er als 11-Jähriger bei den{" "}
+                <span className="text-foreground">„Salzburger SchlossKonzerten"</span> gemeinsam mit den{" "}
+                <span className="text-foreground">Salzburger Solisten</span>. Als 12-Jähriger gewann er einen New Yorker Klavierwettbewerb (<span className="text-foreground">AADGT</span>) und spielte beim Schlusskonzert in der{" "}
                 <span className="text-gold-light">Carnegie Weill Recital Hall</span>.
               </p>
               <p>
-                Mit 13 Jahren feierte er sein Debut als Solist mit den Bad Reichenhaller Philharmonikern unter der Leitung von Christian Simonis mit dem Klavierkonzert Nr. 1 von F. Mendelssohn und wurde sofort wieder engagiert. Johann ist zudem Preisträger diverser nationaler und internationaler Wettbewerbe, darunter 1. Preis beim 32. internationalen Smetana Klavierwettbewerb in Pilsen (Tschechien), 2. Preis beim internationalen Klavierwettbewerb Jugend in Essen (DE), 1. Preis beim Golden Classical Music Award in New York (USA), Grand Prix beim "Rising Stars"-Wettbewerb in Berlin (DE), 3. Preis beim internationalen Jenö Takács Wettbewerb in Oberschützen (AT), mehrfache 1. Preise mit Höchstpunktzahl beim deutschen „Jugend Musiziert"-Bundeswettbewerb (Duowertung) und seit 2016 mehrfache 1. Preise auf Bundesebene sowie Landessieger Salzburg 2020 beim österreichischen "prima la musica"-Wettbewerb.
+                Mit 13 Jahren feierte er sein Debut als Solist mit den{" "}
+                <span className="text-foreground">Bad Reichenhaller Philharmonikern</span> unter der Leitung von{" "}
+                <span className="text-foreground">Christian Simonis</span> mit dem Klavierkonzert Nr. 1 von <span className="text-foreground">F. Mendelssohn</span> und wurde sofort wieder engagiert. Johann ist zudem Preisträger diverser nationaler und internationaler Wettbewerbe, darunter{" "}
+                <span className="text-gold-light">1. Preis</span> beim 32. internationalen <span className="text-foreground">Smetana Klavierwettbewerb</span> in Pilsen (Tschechien),{" "}
+                <span className="text-foreground">2. Preis</span> beim internationalen Klavierwettbewerb Jugend in Essen (DE),{" "}
+                <span className="text-gold-light">1. Preis</span> beim <span className="text-foreground">Golden Classical Music Award</span> in New York (USA),{" "}
+                <span className="text-gold-light">Grand Prix</span> beim <span className="text-foreground">"Rising Stars"-Wettbewerb</span> in Berlin (DE),{" "}
+                <span className="text-foreground">3. Preis</span> beim internationalen <span className="text-foreground">Jenö Takács Wettbewerb</span> in Oberschützen (AT), mehrfache{" "}
+                <span className="text-foreground">1. Preise mit Höchstpunktzahl</span> beim deutschen{" "}
+                <span className="text-foreground">„Jugend Musiziert"-Bundeswettbewerb</span> (Duowertung) und seit 2016 mehrfache 1. Preise auf Bundesebene sowie{" "}
+                <span className="text-foreground">Landessieger Salzburg 2020</span> beim österreichischen <span className="text-foreground">"prima la musica"</span>-Wettbewerb.
               </p>
               <p>
                 Im April 2019 spielte Johann gemeinsam mit den{" "}
-                <span className="text-gold-light">Berliner Symphonikern</span> unter der Leitung von Christoph Koncz das Liszt Klavierkonzert Nr. 1 in der{" "}
-                <span className="text-gold-light">Berliner Philharmonie</span>. Im selben Jahr gewann er sowohl den Nachwuchsförderpreis als auch den Publikumspreis der Sparkassen-Finanzgruppe beim Schleswig-Holstein Musik Festival im Duo mit Fabian Egger. In derselben Formation gewann er 2022 den Sparkassen-Sonderpreis anlässlich des Landeswettbewerbs "Jugend musiziert".
+                <span className="text-gold-light">Berliner Symphonikern</span> unter der Leitung von{" "}
+                <span className="text-foreground">Christoph Koncz</span> das <span className="text-foreground">Liszt Klavierkonzert Nr. 1</span> in der{" "}
+                <span className="text-gold-light">Berliner Philharmonie</span>. Im selben Jahr gewann er sowohl den{" "}
+                <span className="text-foreground">Nachwuchsförderpreis</span> als auch den{" "}
+                <span className="text-foreground">Publikumspreis</span> der Sparkassen-Finanzgruppe beim{" "}
+                <span className="text-gold-light">Schleswig-Holstein Musik Festival</span> im Duo mit{" "}
+                <span className="text-foreground">Fabian Egger</span>. In derselben Formation gewann er 2022 den{" "}
+                <span className="text-foreground">Sparkassen-Sonderpreis</span> anlässlich des Landeswettbewerbs "Jugend musiziert".
               </p>
               <p>
-                Im Herbst 2023 erhielt er eine Konzerteinladung vom Amazing Haydn Festival, wo er mit seinem Lupus-Trio in Mechelen (Belgien) einen Rezitalabend gestaltete. Zudem gewann er im selben Jahr den Förderpreis des Tiroler Klassik Instrumentalistenpreises. Johann wirkte des Öfteren bei den Operncamps der Salzburger Festspiele mit, wo er mit Dirigentinnen wie Anna Handler und Daniela Ivanova arbeitete und zusammen mit Mitgliedern der Wiener Philharmoniker im Orchester musizierte.
+                Im Herbst 2023 erhielt er eine Konzerteinladung vom{" "}
+                <span className="text-foreground">Amazing Haydn Festival</span>, wo er mit seinem{" "}
+                <span className="text-foreground">Lupus-Trio</span> in Mechelen (Belgien) einen Rezitalabend gestaltete. Zudem gewann er im selben Jahr den{" "}
+                <span className="text-foreground">Förderpreis des Tiroler Klassik Instrumentalistenpreises</span>. Johann wirkte des Öfteren bei den Operncamps der{" "}
+                <span className="text-gold-light">Salzburger Festspiele</span> mit, wo er mit Dirigentinnen wie{" "}
+                <span className="text-foreground">Anna Handler</span> und{" "}
+                <span className="text-foreground">Daniela Ivanova</span> arbeitete und zusammen mit Mitgliedern der{" "}
+                <span className="text-gold-light">Wiener Philharmoniker</span> im Orchester musizierte.
               </p>
               <p>
-                Gegen Ende des Jahres 2023 gründeten er und der Salzburger Komponist und Pianist Karim Zech das Klavierduo{" "}
-                <span className="text-foreground">"Zhao & Zech"</span>. Gemeinsam konzertieren sie regelmäßig in Form von Duorezitalen und Gastauftritten im In- und Ausland. Bisherige Auftritte fanden bereits in Wien, Salzburg (Schloss Goldegg, Pernerinsel), Japan, Deutschland und in der Türkei statt. Im Frühjahr 2026 gab Johann sein Debüt bei der{" "}
-                <span className="text-gold-light">Mozartwoche</span> und führte mit dem Orquesta Iberacademy Medellín (Leitung: Álvaro Julca) und Karim Zech dessen Konzert für Klavier zu 4 Händen und Ensemble auf.
+                Gegen Ende des Jahres 2023 gründeten er und der Salzburger Komponist und Pianist{" "}
+                <span className="text-foreground">Karim Zech</span> das Klavierduo{" "}
+                <span className="text-foreground">"Zhao & Zech"</span>. Gemeinsam konzertieren sie regelmäßig in Form von Duorezitalen und Gastauftritten im In- und Ausland. Bisherige Auftritte fanden bereits in Wien, Salzburg (<span className="text-foreground">Schloss Goldegg</span>, <span className="text-foreground">Pernerinsel</span>), Japan, Deutschland und in der Türkei statt. Im Frühjahr 2026 gab Johann sein Debüt bei der{" "}
+                <span className="text-gold-light">Mozartwoche</span> und führte mit dem{" "}
+                <span className="text-foreground">Orquesta Iberacademy Medellín</span> (Leitung: <span className="text-foreground">Álvaro Julca</span>) und{" "}
+                <span className="text-foreground">Karim Zech</span> dessen Konzert für Klavier zu 4 Händen und Ensemble auf.
               </p>
               <p>
                 Er erhielt wichtige künstlerische Impulse u.a. von{" "}
@@ -110,30 +138,59 @@ const AboutSection = () => {
           ) : (
             <>
               <p>
-                Johann Zhao (*25.11.2003) began learning keyboard at Musikum Salzburg at the age of five. At eight, he received a grand piano as a gift from his father, marking the beginning of his formal piano studies. He was admitted to the Pre-College of the{" "}
+                Johann Zhao (*25.11.2003) began learning keyboard at <span className="text-foreground">Musikum Salzburg</span> at the age of five. At eight, he received a grand piano as a gift from his father, marking the beginning of his formal piano studies. He was admitted to the Pre-College of the{" "}
                 <span className="text-gold-light">Mozarteum University</span> at the age of 9, where he initially studied for many years with{" "}
                 <span className="text-foreground">Prof. Cordelia Höfer-Teutsch</span> and has been completing his Bachelor's degree under{" "}
                 <span className="text-foreground">Prof. Connie Shih</span> since 2023.
               </p>
               <p>
-                At the age of 11, Johann performed his first piano concertos by W. A. Mozart at the "Salzburg Palace Concerts" together with the Salzburger Solisten. A year later, he won a piano competition in New York (AADGT) and performed at the final concert in the prestigious{" "}
+                At the age of 11, Johann performed his first piano concertos by <span className="text-foreground">W. A. Mozart</span> at the{" "}
+                <span className="text-foreground">"Salzburg Palace Concerts"</span> together with the{" "}
+                <span className="text-foreground">Salzburger Solisten</span>. A year later, he won a piano competition in New York (<span className="text-foreground">AADGT</span>) and performed at the final concert in the prestigious{" "}
                 <span className="text-gold-light">Carnegie Weill Recital Hall</span>.
               </p>
               <p>
-                At 13, he made his debut as a soloist with the Bad Reichenhall Philharmonic Orchestra under the baton of Christian Simonis, performing Mendelssohn's Piano Concerto No. 1 — and was immediately re-engaged. Johann is the first prize winner of numerous national and international competitions, including the 1st prize at the 32nd Smetana International Piano Competition in Pilsen, 2nd prize at the Youth International Piano Competition in Essen, 1st prize at the "Golden Classical Music Award" in New York, Grand Prix at the "Rising Stars" competition in Berlin, 3rd prize at the International Jenő Takács Competition in Oberschützen, multiple 1st prizes at the German national competition "Jugend Musiziert" with top scores, and since 2016, multiple 1st prizes as well as federal state winner 2020 of the Austrian "prima la musica" competition.
+                At 13, he made his debut as a soloist with the{" "}
+                <span className="text-foreground">Bad Reichenhall Philharmonic Orchestra</span> under the baton of{" "}
+                <span className="text-foreground">Christian Simonis</span>, performing <span className="text-foreground">Mendelssohn's Piano Concerto No. 1</span> — and was immediately re-engaged. Johann is the first prize winner of numerous national and international competitions, including the{" "}
+                <span className="text-gold-light">1st prize</span> at the 32nd <span className="text-foreground">Smetana International Piano Competition</span> in Pilsen,{" "}
+                <span className="text-foreground">2nd prize</span> at the Youth International Piano Competition in Essen,{" "}
+                <span className="text-gold-light">1st prize</span> at the <span className="text-foreground">"Golden Classical Music Award"</span> in New York,{" "}
+                <span className="text-gold-light">Grand Prix</span> at the <span className="text-foreground">"Rising Stars"</span> competition in Berlin,{" "}
+                <span className="text-foreground">3rd prize</span> at the International <span className="text-foreground">Jenő Takács Competition</span> in Oberschützen, multiple{" "}
+                <span className="text-foreground">1st prizes with top scores</span> at the German national competition{" "}
+                <span className="text-foreground">"Jugend Musiziert"</span>, and since 2016, multiple 1st prizes as well as{" "}
+                <span className="text-foreground">federal state winner 2020</span> of the Austrian <span className="text-foreground">"prima la musica"</span> competition.
               </p>
               <p>
-                In April 2019, Johann performed the Liszt Piano Concerto No. 1 with the{" "}
-                <span className="text-gold-light">Berlin Symphony Orchestra</span> under the baton of Christoph Koncz at the{" "}
-                <span className="text-gold-light">Berlin Philharmonic</span>. That same year, he won both the Festival Prize and the Audience Award of the Sparkassen Finance Group at the Schleswig-Holstein Music Festival in a duo with Fabian Egger. In 2022, the same duo won the Sparkasse Special Prize at the federal state competition "Jugend musiziert".
+                In April 2019, Johann performed the{" "}
+                <span className="text-foreground">Liszt Piano Concerto No. 1</span> with the{" "}
+                <span className="text-gold-light">Berlin Symphony Orchestra</span> under the baton of{" "}
+                <span className="text-foreground">Christoph Koncz</span> at the{" "}
+                <span className="text-gold-light">Berlin Philharmonic</span>. That same year, he won both the{" "}
+                <span className="text-foreground">Festival Prize</span> and the{" "}
+                <span className="text-foreground">Audience Award</span> of the Sparkassen Finance Group at the{" "}
+                <span className="text-gold-light">Schleswig-Holstein Music Festival</span> in a duo with{" "}
+                <span className="text-foreground">Fabian Egger</span>. In 2022, the same duo won the{" "}
+                <span className="text-foreground">Sparkasse Special Prize</span> at the federal state competition "Jugend musiziert".
               </p>
               <p>
-                In autumn 2023, he received an invitation from the Amazing Haydn Festival, where he and his Lupus Trio performed a recital concert in Mechelen, Belgium. That same year, he was awarded the sponsorship prize of the Tyrolean Classical Instrumentalist Prize. Johann has frequently participated in the Salzburg Festival's opera camps, working with conductors such as Anna Handler and Daniela Ivanova, and performing alongside members of the Vienna Philharmonic.
+                In autumn 2023, he received an invitation from the{" "}
+                <span className="text-foreground">Amazing Haydn Festival</span>, where he and his{" "}
+                <span className="text-foreground">Lupus Trio</span> performed a recital concert in Mechelen, Belgium. That same year, he was awarded the{" "}
+                <span className="text-foreground">Tyrolean Classical Instrumentalist Prize</span>. Johann has frequently participated in the{" "}
+                <span className="text-gold-light">Salzburg Festival</span>'s opera camps, working with conductors such as{" "}
+                <span className="text-foreground">Anna Handler</span> and{" "}
+                <span className="text-foreground">Daniela Ivanova</span>, and performing alongside members of the{" "}
+                <span className="text-gold-light">Vienna Philharmonic</span>.
               </p>
               <p>
                 In late 2023, he founded the piano duo{" "}
-                <span className="text-foreground">"Zhao & Zech"</span> with the Salzburg-based composer and pianist Karim Zech. Together they have been performing an expanding series of recitals and international engagements in Vienna, Salzburg, Japan, Germany, and Turkey. In the spring of 2026, Johann gave his debut at the{" "}
-                <span className="text-gold-light">Mozartwoche</span>, performing together with the Orquesta Iberacademy Medellín (conducted by Álvaro Julca) and Karim Zech the latter's Concerto for Piano Four-Hands and Ensemble.
+                <span className="text-foreground">"Zhao & Zech"</span> with the Salzburg-based composer and pianist{" "}
+                <span className="text-foreground">Karim Zech</span>. Together they have been performing an expanding series of recitals and international engagements in Vienna, Salzburg (<span className="text-foreground">Schloss Goldegg</span>, <span className="text-foreground">Pernerinsel</span>), Japan, Germany, and Turkey. In the spring of 2026, Johann gave his debut at the{" "}
+                <span className="text-gold-light">Mozartwoche</span>, performing together with the{" "}
+                <span className="text-foreground">Orquesta Iberacademy Medellín</span> (conducted by <span className="text-foreground">Álvaro Julca</span>) and{" "}
+                <span className="text-foreground">Karim Zech</span> the latter's Concerto for Piano Four-Hands and Ensemble.
               </p>
               <p>
                 His artistic development has been enriched by inspiration from{" "}
@@ -150,7 +207,7 @@ const AboutSection = () => {
                 <span className="text-foreground">Benedicte Palko</span>, among others. Johann is a scholarship holder of the{" "}
                 <span className="text-foreground">Deutsche Stiftung Musikleben</span>, the{" "}
                 <span className="text-foreground">Rotary Club Salzburg-St. Rupert</span>, and the{" "}
-                <span className="text-foreground">Yehudi Menuhin Foundation Live Music Now Salzburg</span>. Upcoming concerts include performances in Inzell (Bavaria), at the benefit concert COPE, and at the Salzburg University Weeks.
+                <span className="text-foreground">Yehudi Menuhin Foundation Live Music Now Salzburg</span>. Upcoming concerts include performances in <span className="text-foreground">Inzell</span> (Bavaria), at the benefit concert <span className="text-foreground">COPE</span>, and at the <span className="text-foreground">Salzburg University Weeks</span>.
               </p>
             </>
           )}
