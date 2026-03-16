@@ -21,11 +21,12 @@ const concerts: Concert[] = [
     ticketUrl: "https://kupfticket.com/en/events/cope",
   },
   {
-    title: { en: "Duo Recital and Masterclass in Inzell", de: "Duo-Rezital und Masterclass in Inzell" },
+    title: { en: "Duo Recital and Workshop in Inzell", de: "Duo-Rezital und Workshop in Inzell" },
     date: { en: "March 21, 2026", de: "21. März 2026" },
     dateObj: new Date(2026, 2, 22),
     time: "18:00",
     venue: { en: "Music School Inzell", de: "Musikschule Inzell" },
+    ticketUrl: "https://www.inzell.de/klavier-1",
   },
   {
     title: { en: "Live Music Now Benefit Concert", de: "Live Music Now Benefizkonzert" },

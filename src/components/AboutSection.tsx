@@ -90,10 +90,21 @@ const AboutSection = () => {
                 <span className="text-gold-light">Mozartwoche</span> und führte mit dem Orquesta Iberacademy Medellín (Leitung: Álvaro Julca) und Karim Zech dessen Konzert für Klavier zu 4 Händen und Ensemble auf.
               </p>
               <p>
-                Er erhielt wichtige künstlerische Impulse u.a. von Elisabeth Leonskaja, Thomas Riebl, Kit Armstrong, Kristian Bezuidenhout, Arnulf von Arnim, Leonhard Roczek, Cibrán Sierra Vázquez und Gilbert Kalish. Johann ist Stipendiat der{" "}
+                Er erhielt wichtige künstlerische Impulse u.a. von{" "}
+                <span className="text-foreground">Elisabeth Leonskaja</span>,{" "}
+                <span className="text-foreground">Thomas Riebl</span>,{" "}
+                <span className="text-foreground">Kit Armstrong</span>,{" "}
+                <span className="text-foreground">Claudio Martinéz Mehner</span>,{" "}
+                <span className="text-foreground">Kristian Bezuidenhout</span>,{" "}
+                <span className="text-foreground">Arnulf von Arnim</span>,{" "}
+                <span className="text-foreground">Leonhard Roczek</span>,{" "}
+                <span className="text-foreground">Cibrán Sierra Vázquez</span>,{" "}
+                <span className="text-foreground">Gilbert Kalish</span>,{" "}
+                <span className="text-foreground">Réka Szilvay</span> und{" "}
+                <span className="text-foreground">Benedicte Palko</span>. Johann ist Stipendiat der{" "}
                 <span className="text-foreground">Deutschen Stiftung Musikleben</span>, des{" "}
-                <span className="text-foreground">Rotary Clubs St. Rupert</span> und der{" "}
-                <span className="text-foreground">Live Music Now Stiftung Salzburg</span>.
+                <span className="text-foreground">Rotary Clubs Salzburg-St. Rupert</span> und der{" "}
+                <span className="text-foreground">Yehudi Menuhin Stiftung Live Music Now Salzburg</span>.
               </p>
             </>
           ) : (
@@ -125,9 +136,21 @@ const AboutSection = () => {
                 <span className="text-gold-light">Mozartwoche</span>, performing together with the Orquesta Iberacademy Medellín (conducted by Álvaro Julca) and Karim Zech the latter's Concerto for Piano Four-Hands and Ensemble.
               </p>
               <p>
-                His artistic development has been enriched by inspiration from Elisabeth Leonskaja, Thomas Riebl, Kit Armstrong, Kristian Bezuidenhout, Arnulf von Arnim, Leonhard Roczek, Cibrán Sierra Vázquez, and Gilbert Kalish, among others. Johann is a scholarship holder of the{" "}
-                <span className="text-foreground">Deutsche Stiftung Musikleben</span> and the{" "}
-                <span className="text-foreground">Live Music Now Foundation Salzburg</span>. Upcoming concerts include performances in Inzell (Bavaria), at the benefit concert COPE, and at the Salzburg University Weeks.
+                His artistic development has been enriched by inspiration from{" "}
+                <span className="text-foreground">Elisabeth Leonskaja</span>,{" "}
+                <span className="text-foreground">Thomas Riebl</span>,{" "}
+                <span className="text-foreground">Kit Armstrong</span>,{" "}
+                <span className="text-foreground">Claudio Martinéz Mehner</span>,{" "}
+                <span className="text-foreground">Kristian Bezuidenhout</span>,{" "}
+                <span className="text-foreground">Arnulf von Arnim</span>,{" "}
+                <span className="text-foreground">Leonhard Roczek</span>,{" "}
+                <span className="text-foreground">Cibrán Sierra Vázquez</span>,{" "}
+                <span className="text-foreground">Gilbert Kalish</span>,{" "}
+                <span className="text-foreground">Réka Szilvay</span>, and{" "}
+                <span className="text-foreground">Benedicte Palko</span>, among others. Johann is a scholarship holder of the{" "}
+                <span className="text-foreground">Deutsche Stiftung Musikleben</span>, the{" "}
+                <span className="text-foreground">Rotary Club Salzburg-St. Rupert</span>, and the{" "}
+                <span className="text-foreground">Yehudi Menuhin Foundation Live Music Now Salzburg</span>. Upcoming concerts include performances in Inzell (Bavaria), at the benefit concert COPE, and at the Salzburg University Weeks.
               </p>
             </>
           )}
