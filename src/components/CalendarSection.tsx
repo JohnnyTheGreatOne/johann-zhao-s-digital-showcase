@@ -43,6 +43,13 @@ const concerts: Concert[] = [
     venue: { en: "Solitär, Mozarteum University", de: "Solitär, Universität Mozarteum" },
   },
   {
+    title: { en: "Woelfl Tag Oberhofen", de: "Woelfl Tag Oberhofen" },
+    date: { en: "May 16, 2026", de: "16. Mai 2026" },
+    dateObj: new Date(2026, 4, 17),
+    time: "19:00",
+    venue: { en: "Kulturraum Oberhofen", de: "Kulturraum Oberhofen" },
+  },
+  {
     title: { en: "Straußiade Altenmarkt im Pongau", de: "Straußiade Altenmarkt im Pongau" },
     date: { en: "June 20, 2026", de: "20. Juni 2026" },
     dateObj: new Date(2026, 5, 21),
