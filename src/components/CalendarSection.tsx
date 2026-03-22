@@ -41,6 +41,7 @@ const concerts: Concert[] = [
     dateObj: new Date(2026, 4, 10),
     time: "19:00",
     venue: { en: "Solitär, Mozarteum University", de: "Solitär, Universität Mozarteum" },
+    ticketUrl: "https://shop.eventjet.at/de/mozarteum/event/03c90afd-f3e2-40f0-9005-f6f0281f8b41",
   },
   {
     title: { en: "Woelfl Tag Oberhofen", de: "Woelfl Tag Oberhofen" },
