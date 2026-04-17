@@ -104,8 +104,8 @@ const AboutSection = () => {
                 <span className="text-foreground">Claudio Martinéz Mehner</span>,{" "}
                 <span className="text-foreground">Kristian Bezuidenhout</span>,{" "}
                 <span className="text-foreground">Arnulf von Arnim</span>,{" "}
-                <span className="text-foreground">Leonhard Roczek</span> (Minetti Quartett),{" "}
-                <span className="text-foreground">Cibrán Sierra Vázquez</span> (Cuarteto Quiroga),{" "}
+                <span className="text-foreground">Leonhard Roczek</span> (<span className="text-foreground">Minetti Quartett</span>),{" "}
+                <span className="text-foreground">Cibrán Sierra Vázquez</span> (<span className="text-foreground">Cuarteto Quiroga</span>),{" "}
                 <span className="text-foreground">Gilbert Kalish</span>,{" "}
                 <span className="text-foreground">Réka Szilvay</span> und{" "}
                 <span className="text-foreground">Benedicte Palko</span>. Johann ist Stipendiat der{" "}
@@ -157,8 +157,8 @@ const AboutSection = () => {
                 <span className="text-foreground">Claudio Martinéz Mehner</span>,{" "}
                 <span className="text-foreground">Kristian Bezuidenhout</span>,{" "}
                 <span className="text-foreground">Arnulf von Arnim</span>,{" "}
-                <span className="text-foreground">Leonhard Roczek</span> (Minetti Quartett),{" "}
-                <span className="text-foreground">Cibrán Sierra Vázquez</span> (Cuarteto Quiroga),{" "}
+                <span className="text-foreground">Leonhard Roczek</span> (<span className="text-foreground">Minetti Quartett</span>),{" "}
+                <span className="text-foreground">Cibrán Sierra Vázquez</span> (<span className="text-foreground">Cuarteto Quiroga</span>),{" "}
                 <span className="text-foreground">Gilbert Kalish</span>,{" "}
                 <span className="text-foreground">Réka Szilvay</span>, and{" "}
                 <span className="text-foreground">Benedicte Palko</span>, among others. Johann is a scholarship holder of the{" "}
