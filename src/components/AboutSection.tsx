@@ -98,13 +98,14 @@ const AboutSection = () => {
               <p>
                 Er erhielt wichtige künstlerische Impulse u.a. von{" "}
                 <span className="text-foreground">Elisabeth Leonskaja</span>,{" "}
+                <span className="text-foreground">Tatiana Zelikman</span>,{" "}
                 <span className="text-foreground">Thomas Riebl</span>,{" "}
                 <span className="text-foreground">Kit Armstrong</span>,{" "}
                 <span className="text-foreground">Claudio Martinéz Mehner</span>,{" "}
                 <span className="text-foreground">Kristian Bezuidenhout</span>,{" "}
                 <span className="text-foreground">Arnulf von Arnim</span>,{" "}
-                <span className="text-foreground">Leonhard Roczek</span>,{" "}
-                <span className="text-foreground">Cibrán Sierra Vázquez</span>,{" "}
+                <span className="text-foreground">Leonhard Roczek</span> (Minetti Quartett),{" "}
+                <span className="text-foreground">Cibrán Sierra Vázquez</span> (Cuarteto Quiroga),{" "}
                 <span className="text-foreground">Gilbert Kalish</span>,{" "}
                 <span className="text-foreground">Réka Szilvay</span> und{" "}
                 <span className="text-foreground">Benedicte Palko</span>. Johann ist Stipendiat der{" "}
@@ -150,13 +151,14 @@ const AboutSection = () => {
               <p>
                 His artistic development has been enriched by inspiration from{" "}
                 <span className="text-foreground">Elisabeth Leonskaja</span>,{" "}
+                <span className="text-foreground">Tatiana Zelikman</span>,{" "}
                 <span className="text-foreground">Thomas Riebl</span>,{" "}
                 <span className="text-foreground">Kit Armstrong</span>,{" "}
                 <span className="text-foreground">Claudio Martinéz Mehner</span>,{" "}
                 <span className="text-foreground">Kristian Bezuidenhout</span>,{" "}
                 <span className="text-foreground">Arnulf von Arnim</span>,{" "}
-                <span className="text-foreground">Leonhard Roczek</span>,{" "}
-                <span className="text-foreground">Cibrán Sierra Vázquez</span>,{" "}
+                <span className="text-foreground">Leonhard Roczek</span> (Minetti Quartett),{" "}
+                <span className="text-foreground">Cibrán Sierra Vázquez</span> (Cuarteto Quiroga),{" "}
                 <span className="text-foreground">Gilbert Kalish</span>,{" "}
                 <span className="text-foreground">Réka Szilvay</span>, and{" "}
                 <span className="text-foreground">Benedicte Palko</span>, among others. Johann is a scholarship holder of the{" "}
