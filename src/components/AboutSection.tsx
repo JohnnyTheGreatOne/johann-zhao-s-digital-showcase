@@ -158,8 +158,8 @@ const AboutSection = () => {
                 <span className="text-foreground">Claudio Martinéz Mehner</span>,{" "}
                 <span className="text-foreground">Kristian Bezuidenhout</span>,{" "}
                 <span className="text-foreground">Arnulf von Arnim</span>,{" "}
-                <span className="text-foreground">Leonhard Roczek</span> (<span className="text-foreground">Minetti Quartett</span>),{" "}
                 <span className="text-foreground">Johannes Meissl</span>,{" "}
+                <span className="text-foreground">Leonhard Roczek</span> (<span className="text-foreground">Minetti Quartett</span>),{" "}
                 <span className="text-foreground">Cibrán Sierra Vázquez</span> (<span className="text-foreground">Cuarteto Quiroga</span>),{" "}
                 <span className="text-foreground">Gilbert Kalish</span>,{" "}
                 <span className="text-foreground">Réka Szilvay</span>, and{" "}
