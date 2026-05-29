@@ -166,7 +166,7 @@ const AboutSection = () => {
                 <span className="text-foreground">Benedicte Palko</span>, among others. Johann is a scholarship holder of the{" "}
                 <span className="text-foreground">Deutsche Stiftung Musikleben</span>, the{" "}
                 <span className="text-foreground">Rotary Club Salzburg-St. Rupert</span>, and the{" "}
-                <span className="text-foreground">Yehudi Menuhin Foundation Live Music Now Salzburg</span>. Upcoming concerts include performances in Inzell (Bavaria), at the benefit concert COPE, and at the Salzburg University Weeks.
+                <span className="text-foreground">Yehudi Menuhin Foundation Live Music Now Salzburg</span>.
               </p>
             </>
           )}
