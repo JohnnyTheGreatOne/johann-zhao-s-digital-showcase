@@ -6,15 +6,19 @@ import gallery3 from "@/assets/gallery-3.jpeg";
 import gallery4 from "@/assets/gallery-4.jpeg";
 import gallery5 from "@/assets/gallery-5.jpeg";
 import gallery6 from "@/assets/gallery-6.jpeg";
+import gallery7 from "@/assets/gallery-7.jpeg";
+import gallery8 from "@/assets/gallery-8.jpeg";
 import { useLanguage } from "@/context/LanguageContext";
 
 const photos = [
-  { src: gallery1, alt: "Johann Zhao – Portrait" },
-  { src: gallery2, alt: "Johann Zhao – Outdoors" },
-  { src: gallery3, alt: "Johann Zhao – At the Piano" },
-  { src: gallery4, alt: "Johann Zhao – Outdoors Portrait" },
-  { src: gallery5, alt: "Johann Zhao – Piano Reflection" },
-  { src: gallery6, alt: "Johann Zhao – At the Piano" },
+  { src: gallery1, alt: "Johann Zhao – Portrait", credit: "Joanna Bergin" },
+  { src: gallery2, alt: "Johann Zhao – Outdoors", credit: "Joanna Bergin" },
+  { src: gallery3, alt: "Johann Zhao – At the Piano", credit: "Joanna Bergin" },
+  { src: gallery4, alt: "Johann Zhao – Outdoors Portrait", credit: "Joanna Bergin" },
+  { src: gallery5, alt: "Johann Zhao – Piano Reflection", credit: "Joanna Bergin" },
+  { src: gallery6, alt: "Johann Zhao – At the Piano", credit: "Joanna Bergin" },
+  { src: gallery7, alt: "Johann Zhao – At the Steinway", credit: "Michael Klimt" },
+  { src: gallery8, alt: "Johann Zhao – Chamber Music", credit: "Michael Klimt" },
 ];
 
 const GallerySection = () => {
@@ -55,7 +59,7 @@ const GallerySection = () => {
                 loading="lazy"
               />
               <span className="absolute bottom-2 right-2 text-[10px] text-white/60 font-body tracking-wide opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                © Joanna Bergin
+                © {photo.credit}
               </span>
             </motion.div>
           ))}
@@ -83,7 +87,7 @@ const GallerySection = () => {
               className="max-w-full max-h-[85vh] object-contain rounded-sm"
             />
             <span className="absolute bottom-3 right-3 text-xs text-white/70 font-body tracking-wide">
-              © Joanna Bergin
+              © {photos[selected].credit}
             </span>
           </div>
         </motion.div>
