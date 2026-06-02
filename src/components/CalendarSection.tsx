@@ -66,7 +66,7 @@ const concerts: Concert[] = [
   {
     title: {
       en: "György Kurtág 100-year Celebration Concert",
-      de: "György Kurtág 100-Jahr-Jubiläumskonzert",
+      de: "György Kurtág 100-Jahre-Jubiläumskonzert",
     },
     date: { en: "June 6, 2026", de: "6. Juni 2026" },
     dateObj: new Date(2026, 5, 7),
@@ -203,6 +203,14 @@ const concerts: Concert[] = [
     venue: { en: "Gesellschaft für Musiktheater", de: "Gesellschaft für Musiktheater" },
     duo: true,
   },
+  {
+    title: { en: "Duo Recital in Vienna", de: "Duo-Rezital in Wien" },
+    date: { en: "May 31, 2024", de: "31. Mai 2024" },
+    dateObj: new Date(2024, 4, 31),
+    time: "19:00",
+    venue: { en: "Gesellschaft für Musiktheater", de: "Gesellschaft für Musiktheater" },
+    duo: true,
+  },
 ];
 
 const CalendarSection = () => {
@@ -263,11 +271,6 @@ const CalendarSection = () => {
                   <MapPin className="w-3.5 h-3.5" />
                   {concert.venue[language]}
                 </div>
-                {concert.duo && (
-                  <p className="text-xs text-gold/70 font-body mt-1 italic">
-                    {t("past.duoNote")}
-                  </p>
-                )}
               </div>
               {concert.ticketUrl && (
                 <a
@@ -328,11 +331,6 @@ const CalendarSection = () => {
                           <MapPin className="w-3.5 h-3.5" />
                           {concert.venue[language]}
                         </div>
-                        {concert.duo && (
-                          <p className="text-xs text-gold/60 font-body mt-1 italic">
-                            {t("past.duoNote")}
-                          </p>
-                        )}
                       </div>
                     </div>
                   ))}
