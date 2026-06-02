@@ -25,6 +25,11 @@ export const translations = {
       label: "Upcoming",
       title: "Concerts",
     },
+    past: {
+      toggle: "Past Concerts",
+      hide: "Hide Past Concerts",
+      duoNote: "with Zhao & Zech",
+    },
     gallery: {
       label: "Moments",
       title: "Gallery",
@@ -72,6 +77,11 @@ export const translations = {
     calendar: {
       label: "Kommende",
       title: "Konzerte",
+    },
+    past: {
+      toggle: "Vergangene Konzerte",
+      hide: "Vergangene Konzerte ausblenden",
+      duoNote: "mit Zhao & Zech",
     },
     gallery: {
       label: "Momente",
