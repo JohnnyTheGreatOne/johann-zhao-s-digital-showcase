@@ -82,6 +82,16 @@ const concerts: Concert[] = [
     dateObj: new Date(2026, 7, 10),
     venue: { en: "University Hall Salzburg", de: "Universitätsaula Salzburg" },
   },
+  {
+    title: {
+      en: "Taugler Liedertage 2026 — The Taugler Magic Flute",
+      de: "Taugler Liedertage 2026 — Die Taugler Zauberflöte",
+    },
+    date: { en: "September 2–5, 2026", de: "2.-5. September 2026" },
+    dateObj: new Date(2026, 8, 5),
+    venue: { en: "St. Koloman, Salzburg", de: "St. Koloman, Salzburg" },
+    ticketUrl: "https://ntry.at/tauglerzauberfloete?l=de",
+  },
   // Past duo concerts (Zhao & Zech)
   {
     title: { en: "Recital at Schloss Goldegg", de: "Rezital im Schloss Goldegg" },
