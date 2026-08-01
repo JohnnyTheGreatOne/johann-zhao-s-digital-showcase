@@ -78,7 +78,7 @@ const concerts: Concert[] = [
   },
   {
     title: {
-      en: "Concert of the Prize Winners - Sommerakademie Mozarteum 2026",
+      en: "Concert of the Prize Winners - Summer Academy Mozarteum 2026",
       de: "Konzert der Preisträger*innen - Sommerakademie Mozarteum 2026",
     },
     date: { en: "August 1, 2026", de: "1. August 2026" },
