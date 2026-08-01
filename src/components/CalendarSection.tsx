@@ -77,6 +77,19 @@ const concerts: Concert[] = [
     },
   },
   {
+    title: {
+      en: "Concert of the Prize Winners - Sommerakademie Mozarteum 2026",
+      de: "Konzert der Preisträger*innen - Sommerakademie Mozarteum 2026",
+    },
+    date: { en: "August 1, 2026", de: "1. August 2026" },
+    dateObj: new Date(2026, 7, 2),
+    time: "11:00",
+    venue: {
+      en: "Solitär, Mozarteum University",
+      de: "Solitär, Universität Mozarteum",
+    },
+  },
+  {
     title: { en: "Salzburg University Weeks", de: "Salzburger Hochschulwochen" },
     date: { en: "August 9, 2026", de: "9. August 2026" },
     dateObj: new Date(2026, 7, 10),
