@@ -96,6 +96,13 @@ const AboutSection = () => {
                 <span className="text-gold-light">Mozartwoche</span> und führte mit dem Orquesta Iberacademy Medellín (Leitung: Álvaro Julca) und Karim Zech dessen Konzert für Klavier zu 4 Händen und Ensemble auf.
               </p>
               <p>
+                Im Rahmen der{" "}
+                <span className="text-gold-light">Internationalen Sommerakademie des Mozarteums 2026</span>{" "}
+                wurde er beim Abschlusskonzert als{" "}
+                <span className="text-foreground">Preisträger</span>{" "}
+                ausgezeichnet.
+              </p>
+              <p>
                 Er erhielt wichtige künstlerische Impulse u.a. von{" "}
                 <span className="text-foreground">Elisabeth Leonskaja</span>,{" "}
                 <span className="text-foreground">Tatiana Zelikman</span>,{" "}
@@ -148,6 +155,12 @@ const AboutSection = () => {
                 In late 2023, he founded the piano duo{" "}
                 <span className="text-foreground">"Zhao & Zech"</span> with the Salzburg-based composer and pianist Karim Zech. Together they have been performing an expanding series of recitals and international engagements in Vienna, Salzburg, Japan, Germany, and Turkey. In the spring of 2026, Johann gave his debut at the{" "}
                 <span className="text-gold-light">Mozartwoche</span>, performing together with the Orquesta Iberacademy Medellín (conducted by Álvaro Julca) and Karim Zech the latter's Concerto for Piano Four-Hands and Ensemble.
+              </p>
+              <p>
+                As part of the{" "}
+                <span className="text-gold-light">International Summer Academy of the Mozarteum 2026</span>, he was honored as a{" "}
+                <span className="text-foreground">prize winner</span>{" "}
+                at the closing concert.
               </p>
               <p>
                 His artistic development has been enriched by inspiration from{" "}
