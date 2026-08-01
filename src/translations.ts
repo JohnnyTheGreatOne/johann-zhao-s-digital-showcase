@@ -54,7 +54,7 @@ export const translations = {
   },
   de: {
     nav: {
-      about: "Über",
+      about: "Biografie",
       calendar: "Kalender",
       gallery: "Galerie",
       media: "Medien",
