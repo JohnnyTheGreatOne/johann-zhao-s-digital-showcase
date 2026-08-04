@@ -8,6 +8,11 @@ import gallery5 from "@/assets/gallery-5.jpeg";
 import gallery6 from "@/assets/gallery-6.jpeg";
 import gallery7 from "@/assets/gallery-7.jpeg";
 import gallery8 from "@/assets/gallery-8.jpeg";
+import gallery9 from "@/assets/gallery-9.jpeg";
+import gallery10 from "@/assets/gallery-10.jpeg";
+import gallery11 from "@/assets/gallery-11.jpeg";
+import gallery12 from "@/assets/gallery-12.jpeg";
+import gallery13 from "@/assets/gallery-13.jpeg";
 import { useLanguage } from "@/context/LanguageContext";
 
 const photos = [
@@ -19,6 +24,11 @@ const photos = [
   { src: gallery6, alt: "Johann Zhao – At the Piano", credit: "Joanna Bergin" },
   { src: gallery7, alt: "Johann Zhao – At the Steinway", credit: "Michael Klimt" },
   { src: gallery8, alt: "Johann Zhao – Chamber Music", credit: "Michael Klimt" },
+  { src: gallery9, alt: "Johann Zhao – Preisträgerkonzert", credit: "Michael Klimt" },
+  { src: gallery10, alt: "Johann Zhao – Steinway Recital", credit: "Michael Klimt" },
+  { src: gallery11, alt: "Johann Zhao – Concert Hall", credit: "Michael Klimt" },
+  { src: gallery12, alt: "Johann Zhao – In Performance", credit: "Michael Klimt" },
+  { src: gallery13, alt: "Johann Zhao – At the Grand Piano", credit: "Michael Klimt" },
 ];
 
 const GallerySection = () => {
