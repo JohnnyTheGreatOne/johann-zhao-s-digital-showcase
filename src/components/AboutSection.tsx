@@ -3,6 +3,7 @@ import { useLanguage } from "@/context/LanguageContext";
 
 const achievements = {
   en: [
+    { year: "2026", title: "Prize Winner International Summer Academy Mozarteum", detail: "Honored at the closing concert of the International Summer Academy of the Mozarteum 2026" },
     { year: "2026", title: "Mozartwoche Debut", detail: "Performed with Orquesta Iberacademy Medellín & Karim Zech at the Mozartwoche, Salzburg" },
     { year: "2023", title: "Tyrolean Classical Instrumentalist Prize", detail: "Awarded sponsorship prize" },
     { year: "2023", title: "Amazing Haydn Festival", detail: "Recital concert with Lupus Trio in Mechelen, Belgium" },
@@ -18,6 +19,7 @@ const achievements = {
     { year: "2013", title: "Mozarteum University Pre-College", detail: "Admitted at age 9" },
   ],
   de: [
+    { year: "2026", title: "Preisträger Internationale Sommerakademie Mozarteum", detail: "Auszeichnung beim Abschlusskonzert der Internationalen Sommerakademie des Mozarteums 2026" },
     { year: "2026", title: "Debüt bei der Mozartwoche", detail: "Aufführung mit dem Orquesta Iberacademy Medellín & Karim Zech bei der Mozartwoche, Salzburg" },
     { year: "2023", title: "Tiroler Klassik Instrumentalistenpreis", detail: "Förderpreis erhalten" },
     { year: "2023", title: "Amazing Haydn Festival", detail: "Rezitalabend mit dem Lupus-Trio in Mechelen, Belgien" },
