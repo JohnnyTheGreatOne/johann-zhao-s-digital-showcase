@@ -66,7 +66,7 @@ const AboutSection = () => {
           {language === "de" ? (
             <>
               <p>
-                Johann Zhao wurde am 25.11.2003 in Salzburg, Österreich geboren. Er erhielt seinen ersten Klavierunterricht mit 5 Jahren und wurde im Alter von 9 Jahren in das Pre-College der{" "}
+                Johann Zhao wurde 2003 in Salzburg, Österreich geboren. Er erhielt seinen ersten Klavierunterricht mit 5 Jahren und wurde im Alter von 9 Jahren in das Pre-College der{" "}
                 <span className="text-gold-light">Universität Mozarteum</span> aufgenommen. Dort studierte er zunächst langjährig bei{" "}
                 <span className="text-foreground">Prof. Cordelia Höfer-Teutsch</span> und schließt seit 2023 sein Bachelorstudium bei{" "}
                 <span className="text-foreground">Prof. Connie Shih</span> ab.
