@@ -127,7 +127,7 @@ const AboutSection = () => {
           ) : (
             <>
               <p>
-                Johann Zhao (*25.11.2003) began learning keyboard at Musikum Salzburg at the age of five. At eight, he received a grand piano as a gift from his father, marking the beginning of his formal piano studies. He was admitted to the Pre-College of the{" "}
+                Johann Zhao was born in 2003 in Salzburg, Austria. He began learning keyboard at Musikum Salzburg at the age of five. At eight, he received a grand piano as a gift from his father, marking the beginning of his formal piano studies. He was admitted to the Pre-College of the{" "}
                 <span className="text-gold-light">Mozarteum University</span> at the age of 9, where he initially studied for many years with{" "}
                 <span className="text-foreground">Prof. Cordelia Höfer-Teutsch</span> and has been completing his Bachelor's degree under{" "}
                 <span className="text-foreground">Prof. Connie Shih</span> since 2023.
