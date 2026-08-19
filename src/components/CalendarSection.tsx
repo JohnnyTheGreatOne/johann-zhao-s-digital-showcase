@@ -105,6 +105,19 @@ const concerts: Concert[] = [
     venue: { en: "St. Koloman, Salzburg", de: "St. Koloman, Salzburg" },
     ticketUrl: "https://ntry.at/tauglerzauberfloete?l=de",
   },
+  {
+    title: {
+      en: "HerbstTöne Chamber Music Festival",
+      de: "Kammermusikfestival HerbstTöne",
+    },
+    date: { en: "November 20, 2026", de: "20. November 2026" },
+    dateObj: new Date(2026, 10, 20),
+    time: "18:00",
+    venue: {
+      en: "Solitär, Mozarteum University",
+      de: "Solitär, Universität Mozarteum",
+    },
+  },
   // Past duo concerts (Zhao & Zech)
   {
     title: { en: "Recital at Schloss Goldegg", de: "Rezital im Schloss Goldegg" },
