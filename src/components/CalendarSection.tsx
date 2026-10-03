@@ -118,6 +118,15 @@ const concerts: Concert[] = [
       de: "Solitär, Universität Mozarteum",
     },
   },
+  {
+    title: {
+      en: "Concert with Martin Ferdiny and Co.",
+      de: "Konzert mit Martin Ferdiny und Co.",
+    },
+    date: { en: "November 27, 2026", de: "27. November 2026" },
+    dateObj: new Date(2026, 10, 27),
+    venue: { en: "Kulturraum Oberhofen", de: "Kulturraum Oberhofen" },
+  },
   // Past duo concerts (Zhao & Zech)
   {
     title: { en: "Recital at Schloss Goldegg", de: "Rezital im Schloss Goldegg" },
