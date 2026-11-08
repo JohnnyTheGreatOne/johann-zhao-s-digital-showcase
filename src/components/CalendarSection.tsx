@@ -142,6 +142,7 @@ const concerts: Concert[] = [
     },
     date: { en: "November 27, 2026", de: "27. November 2026" },
     dateObj: new Date(2026, 10, 27),
+    time: "19:30",
     venue: { en: "Kulturraum Oberhofen", de: "Kulturraum Oberhofen" },
     ticketUrl: "https://kulturraum-oberhofen.at/veranstaltung/von-wasser-wind-und-liebe/",
   },
