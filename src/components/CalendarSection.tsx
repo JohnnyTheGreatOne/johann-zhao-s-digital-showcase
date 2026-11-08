@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
 import { CalendarDays, MapPin, ExternalLink, ChevronDown } from "lucide-react";
 import { useState } from "react";
+import wienPoster from "@/assets/wien-woelfl-beethoven-poster.jpeg";
+import oberhofenPoster from "@/assets/oberhofen-ferdiny-poster.jpg";
 
 interface Concert {
   title: { en: string; de: string };
@@ -11,6 +13,7 @@ interface Concert {
   venue: { en: string; de: string };
   ticketUrl?: string;
   linkText?: { en: string; de: string };
+  thumbnail?: string;
   duo?: boolean;
 }
 
@@ -134,17 +137,19 @@ const concerts: Concert[] = [
     },
     ticketUrl: "https://www.wienerklavierforum.com/veranstaltungskalender",
     linkText: { en: "More Info", de: "Mehr Infos" },
+    thumbnail: wienPoster,
   },
   {
     title: {
-      en: "Chamber Music with Martin Ferdiny and the Polyphonia Quintet",
-      de: "Kammermusik mit Martin Ferdiny und dem Polyphonia-Quintett",
+      en: "Chamber Music with Martin Ferdiny & the Polyphonia Quintet",
+      de: "Kammermusik mit Martin Ferdiny & Polyphonia-Quintett",
     },
     date: { en: "November 27, 2026", de: "27. November 2026" },
     dateObj: new Date(2026, 10, 27),
     time: "19:30",
     venue: { en: "Kulturraum Oberhofen", de: "Kulturraum Oberhofen" },
     ticketUrl: "https://kulturraum-oberhofen.at/veranstaltung/von-wasser-wind-und-liebe/",
+    thumbnail: oberhofenPoster,
   },
   // Past duo concerts (Zhao & Zech)
   {
@@ -316,6 +321,15 @@ const CalendarSection = () => {
               transition={{ duration: 0.6, delay: i * 0.1 }}
               className="group flex flex-col md:flex-row md:items-center gap-4 md:gap-8 py-8 border-b border-border hover:border-gold/30 transition-colors"
             >
+              <div className="shrink-0 w-16 md:w-20">
+                {concert.thumbnail && (
+                  <img
+                    src={concert.thumbnail}
+                    alt={concert.title[language]}
+                    className="w-full h-auto rounded-sm border border-border group-hover:border-gold/40 transition-colors shadow-lg"
+                  />
+                )}
+              </div>
               <div className="min-w-[160px]">
                 <div className="flex items-center gap-2 text-gold font-display text-lg md:text-xl font-medium">
                   <CalendarDays className="w-4 h-4" />
