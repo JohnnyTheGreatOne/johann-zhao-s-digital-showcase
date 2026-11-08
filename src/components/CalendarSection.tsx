@@ -10,6 +10,7 @@ interface Concert {
   time?: string;
   venue: { en: string; de: string };
   ticketUrl?: string;
+  linkText?: { en: string; de: string };
   duo?: boolean;
 }
 
@@ -117,6 +118,21 @@ const concerts: Concert[] = [
       en: "Solitär, Mozarteum University",
       de: "Solitär, Universität Mozarteum",
     },
+  },
+  {
+    title: {
+      en: "From Duel to Analysis — Encounters with the Viennese Piano Tradition",
+      de: "Vom Duell zur Analyse — Begegnungen mit der Wiener Klaviertradition",
+    },
+    date: { en: "November 23, 2026", de: "23. November 2026" },
+    dateObj: new Date(2026, 10, 23),
+    time: "18:00",
+    venue: {
+      en: "Bösendorfer Salon, Bösendorferstraße 12, Vienna",
+      de: "Bösendorfer Salon, Bösendorferstraße 12, Wien",
+    },
+    ticketUrl: "https://www.wienerklavierforum.com/veranstaltungskalender",
+    linkText: { en: "More Info", de: "Mehr Infos" },
   },
   {
     title: {
@@ -324,7 +340,7 @@ const CalendarSection = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-gold hover:text-gold-light font-body text-sm tracking-[0.15em] uppercase transition-colors"
                 >
-                  Tickets
+                  {concert.linkText?.[language] ?? "Tickets"}
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
               )}
