@@ -108,8 +108,8 @@ const concerts: Concert[] = [
   },
   {
     title: {
-      en: "HerbstTöne Chamber Music Festival",
-      de: "Kammermusikfestival HerbstTöne",
+      en: "HerbstTöne Chamber Music Festival: “The Rescue of Penelope” by Britten",
+      de: "Kammermusikfestival HerbstTöne: „The Rescue of Penelope“ von Britten",
     },
     date: { en: "November 20, 2026", de: "20. November 2026" },
     dateObj: new Date(2026, 10, 20),
@@ -122,8 +122,8 @@ const concerts: Concert[] = [
   },
   {
     title: {
-      en: "From Duel to Analysis — Encounters with the Viennese Piano Tradition",
-      de: "Vom Duell zur Analyse — Begegnungen mit der Wiener Klaviertradition",
+      en: "Concert with Works by Beethoven and Woelfl",
+      de: "Konzert mit Werken von Beethoven und Woelfl",
     },
     date: { en: "November 23, 2026", de: "23. November 2026" },
     dateObj: new Date(2026, 10, 23),
@@ -137,8 +137,8 @@ const concerts: Concert[] = [
   },
   {
     title: {
-      en: "Concert with Martin Ferdiny and Co.",
-      de: "Konzert mit Martin Ferdiny und Co.",
+      en: "Chamber Music with Martin Ferdiny and the Polyphonia Quintet",
+      de: "Kammermusik mit Martin Ferdiny und dem Polyphonia-Quintett",
     },
     date: { en: "November 27, 2026", de: "27. November 2026" },
     dateObj: new Date(2026, 10, 27),
