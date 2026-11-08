@@ -118,6 +118,7 @@ const concerts: Concert[] = [
       en: "Solitär, Mozarteum University",
       de: "Solitär, Universität Mozarteum",
     },
+    ticketUrl: "https://shop.eventjet.at/de/mozarteum/event/010fe8b6-16fb-4d4a-9e67-90b4b6bce11b",
   },
   {
     title: {
@@ -142,6 +143,7 @@ const concerts: Concert[] = [
     date: { en: "November 27, 2026", de: "27. November 2026" },
     dateObj: new Date(2026, 10, 27),
     venue: { en: "Kulturraum Oberhofen", de: "Kulturraum Oberhofen" },
+    ticketUrl: "https://kulturraum-oberhofen.at/veranstaltung/von-wasser-wind-und-liebe/",
   },
   // Past duo concerts (Zhao & Zech)
   {
