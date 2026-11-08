@@ -108,8 +108,8 @@ const concerts: Concert[] = [
   },
   {
     title: {
-      en: "HerbstTöne Chamber Music Festival: “The Rescue of Penelope” by Britten",
-      de: "Kammermusikfestival HerbstTöne: „The Rescue of Penelope“ von Britten",
+      en: "HerbstTöne Chamber Music Festival: “The Odyssey – The Rescue of Penelope” by Britten",
+      de: "Kammermusikfestival HerbstTöne: „Die Odyssee – Die Rettung der Penelope“ von Britten",
     },
     date: { en: "November 20, 2026", de: "20. November 2026" },
     dateObj: new Date(2026, 10, 20),
